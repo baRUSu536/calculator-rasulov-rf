@@ -33,7 +33,7 @@ echo "7 / -3" | ./calc.exe             # Output: -2 (truncated toward zero)
 
 - **Integer-only:** Floating-point numbers are not supported.
 - **No error handling:** Program expects valid input:
-        All parentheses must be properly balanced.
-        Division by zero causes undefined behavior.
-        Invalid characters (non-digits, unsupported operators) will crash the program.
-        No spaces allowed in numbers (e.g., `1 000` is invalid).
+    - All parentheses must be properly balanced.
+    - Division by zero causes undefined behavior.
+    - Invalid characters (non-digits, unsupported operators) will crash the program.
+    - No spaces allowed in numbers (e.g., `1 000` is invalid).
